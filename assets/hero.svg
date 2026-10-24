@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-label="KYNEXISZ — Connect Everything. Transform Anything.">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070e24"/><stop offset=".56" stop-color="#10183a"/><stop offset="1" stop-color="#1c1240"/></linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#55e2ff"/><stop offset=".48" stop-color="#7c9bff"/><stop offset="1" stop-color="#bd7aff"/></linearGradient>
+  <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0H0V35" stroke="#8aa6ff" stroke-opacity=".08" fill="none"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+  <filter id="shadow"><feGaussianBlur stdDeviation="7"/></filter>
+ </defs>
+ <rect width="1200" height="370" rx="22" fill="url(#bg)"/><rect width="1200" height="370" rx="22" fill="url(#grid)"/>
+ <ellipse cx="970" cy="150" rx="220" ry="140" fill="#6b54ff" opacity=".18" filter="url(#blur)"/>
+ <ellipse cx="280" cy="260" rx="180" ry="75" fill="#1fcbea" opacity=".12" filter="url(#blur)"/>
+ <g stroke="url(#glow)" fill="none" stroke-width="2.2" opacity=".75">
+  <path d="M855 95L955 57L1058 112L1085 202L978 271L863 227Z" stroke-dasharray="8 10"><animate attributeName="stroke-dashoffset" from="0" to="-108" dur="9s" repeatCount="indefinite"/></path>
+  <path d="M855 95L978 271M955 57L863 227M1058 112L863 227M855 95L1085 202M955 57L1085 202" opacity=".38"/>
+  <path d="M855 95L955 57L1058 112L1085 202L978 271L863 227Z" opacity=".25" stroke-width="12" filter="url(#shadow)"/>
+ </g>
+ <g fill="#73eaff"><circle cx="855" cy="95" r="6"/><circle cx="955" cy="57" r="7"/><circle cx="1058" cy="112" r="6"/><circle cx="1085" cy="202" r="7"/><circle cx="978" cy="271" r="8"/><circle cx="863" cy="227" r="6"/></g>
+ <g fill="#ffffff"><circle cx="978" cy="165" r="12"><animate attributeName="opacity" values=".45;1;.45" dur="2.2s" repeatCount="indefinite"/></circle></g>
+ <rect x="63" y="45" width="208" height="29" rx="14" fill="#152b49" stroke="#367fba" stroke-opacity=".5"/>
+ <circle cx="81" cy="59.5" r="4" fill="#67efcf"/><text x="94" y="64" fill="#b6e9fa" font-size="12" font-family="Arial,sans-serif" letter-spacing="2">CLOUD-NATIVE PLATFORM</text>
+ <text x="58" y="171" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="84" letter-spacing="4">KYNEXISZ</text>
+ <rect x="61" y="191" width="540" height="4" rx="2" fill="url(#glow)"/>
+ <text x="62" y="244" fill="#d9e8ff" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="600">Connect Everything. Transform Anything.</text>
+ <text x="62" y="289" fill="#a6b4d4" font-family="Arial,Helvetica,sans-serif" font-size="18">Enterprise Integration  ·  Transformation  ·  Modernization</text>
+ <text x="62" y="337" fill="#7795ba" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="2">ENGINEERED FOR THE CLOUD. BUILT FOR THE ENTERPRISE.</text>
+</svg>

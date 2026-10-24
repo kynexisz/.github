@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="270" viewBox="0 0 1100 270" role="img" aria-label="Kynexisz integration architecture flow">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090f27"/><stop offset="1" stop-color="#1c1741"/></linearGradient><linearGradient id="edge"><stop stop-color="#4fdff5"/><stop offset="1" stop-color="#ab7aff"/></linearGradient></defs>
+<rect width="1100" height="270" rx="20" fill="url(#bg)"/>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+ <rect x="35" y="50" width="235" height="172" rx="14" fill="#142443" stroke="#3d7699"/><text x="152" y="79" fill="#88eaff" font-size="14" font-weight="bold" letter-spacing="2">SOURCES</text><text x="152" y="115" fill="#fff" font-size="17">IBM MQ · Kafka</text><text x="152" y="146" fill="#fff" font-size="17">REST · SOAP · SQL</text><text x="152" y="177" fill="#fff" font-size="17">IBM i · S3</text>
+ <rect x="395" y="33" width="310" height="204" rx="16" fill="#1b254d" stroke="#7d99ff" stroke-width="2"/><text x="550" y="66" fill="#99e9ff" font-size="14" letter-spacing="2">KYNEXISZ</text><text x="550" y="108" fill="#fff" font-size="25" font-weight="bold">Transformation Engine</text><text x="550" y="145" fill="#b7cafa" font-size="17">Camel · XSLT · Mapping</text><text x="550" y="174" fill="#b7cafa" font-size="16">Inbox / Outbox · Routing</text><text x="550" y="203" fill="#91d8da" font-size="13">Kubernetes Operator + Console</text>
+ <rect x="830" y="50" width="235" height="172" rx="14" fill="#142443" stroke="#8162aa"/><text x="947" y="79" fill="#bc9bff" font-size="14" font-weight="bold" letter-spacing="2">DESTINATIONS</text><text x="947" y="115" fill="#fff" font-size="17">APIs · Events</text><text x="947" y="146" fill="#fff" font-size="17">Cloud Applications</text><text x="947" y="177" fill="#fff" font-size="17">Databases · Legacy</text>
+</g>
+<g stroke="url(#edge)" stroke-width="4" fill="none" stroke-linecap="round"><path d="M280 135H384" stroke-dasharray="10 10"><animate attributeName="stroke-dashoffset" from="0" to="-40" dur="1.4s" repeatCount="indefinite"/></path><path d="M716 135H820" stroke-dasharray="10 10"><animate attributeName="stroke-dashoffset" from="0" to="-40" dur="1.4s" repeatCount="indefinite"/></path></g>
+<g fill="#8fdbff"><path d="M380 128l12 7-12 7z"/><path d="M816 128l12 7-12 7z"/></g>
+</svg>
